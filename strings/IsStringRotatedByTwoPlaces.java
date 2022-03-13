@@ -21,7 +21,7 @@ public class IsStringRotatedByTwoPlaces {
 		String antiClockWise = "";
 		int len = s2.length();
 
-		clockWise = clockWise + s2.substring(0, 2) + s2.substring(2);
+		clockWise = clockWise + s2.substring(2) + s2.substring(0, 2);
 
 		antiClockWise = antiClockWise + s2.substring(len - 2, len) + s2.substring(0, len - 2);
 
